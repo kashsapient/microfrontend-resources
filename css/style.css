@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Audi Normal;
+    src: url(~@/assets/fonts/AudiTypeScreen-Normal.ttf) format('truetype');
+}
+@font-face {
+    font-family: Audi Light;
+    src: url(~@/assets/fonts/AudiTypeScreen-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: Audi Bold;
+    src: url(~@/assets/fonts/AudiTypeScreen-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: Audi Extended Normal;
+    src: url(~@/assets/fonts/AudiType-ExtendedNormal.ttf) format('truetype');
+}
+@font-face {
+    font-family: Audi Extended Bold;
+    src: url(~@/assets/fonts/AudiType-ExtendedBold.ttf) format('truetype');
+}
+
+body {
+    box-sizing: border-box;
+    color: #000000;
+    font-family: Audi Normal;
+    font-size:62.5%;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    font-family: Audi Extended Bold;
+    font-size: 2rem;
+    margin-left: 33px;
+    margin-top: 210px;
+}
