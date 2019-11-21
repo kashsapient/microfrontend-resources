@@ -1,0 +1,220 @@
+/**
+ * @file layout/grid.css
+ *
+ * @description
+ *
+ * Styles for the sitespecific grid
+ *
+**/
+
+
+/**
+ * initializes the grid
+ * @class l-grid
+ */
+ .l-grid {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.l-grid--nowrap {
+	flex-wrap: nowrap;
+}
+
+.l-grid--row-reverse {
+	flex-direction: row-reverse;
+}
+
+
+
+
+/**
+ * space distribution
+ * @class .l-grid--{around|between}-{SIZE}
+ * @extends .l-grid
+ * @example .l-grid.l-grid--left-s
+ */
+.l-grid--around-s {
+	justify-content: space-around;
+}
+
+.l-grid--between-s {
+	justify-content: space-between;
+}
+
+.l-grid--shrink {
+	width: auto;
+	max-width: inherit;
+	min-width: auto;
+}
+
+
+/**
+ * horizontal alignment
+ * @class .l-grid--{left|center|top}-{SIZE}
+ * @extends .l-grid
+ * @example .l-grid.l-grid--left-s
+ */
+.l-grid--left-s {
+	justify-content: flex-start;
+	text-align: left;
+}
+
+.l-grid--center-s {
+	justify-content: center;
+	text-align: center;
+}
+
+.l-grid--right-s {
+	justify-content: flex-end;
+	text-align: right;
+}
+
+/**
+ * vertical alignment
+ * @class .l-grid--{top|middle|bottom}-{SIZE}
+ * @extends .l-grid
+ * @example .l-grid.l-grid--middle-s
+ */
+.l-grid--top-s {
+	align-items: flex-start;
+	vertical-align: top;
+}
+
+.l-grid--middle-s {
+	align-items: center;
+	vertical-align: middle;
+}
+
+.l-grid--bottom-s {
+	align-items: flex-end;
+	vertical-align: bottom;
+}
+
+
+/**
+ * hides an item in the specified size
+ * @class .l-grid--hidden-{SIZE}
+ * @extends .l-grid-w-{WIDTH}-{SIZE}
+ * @example .l-grid--w-auto-s.l-grid--hidden-s-l
+ */
+.l-grid--hidden-s {
+	display: none;
+}
+
+/**
+ * shows an item in the specified size
+ * @class .l-grid--visible-{SIZE}
+ * @extends .l-grid-w-{WIDTH}-{SIZE}
+ * @example .l-grid--w-auto-s.l-grid--visible-s-l
+ */
+.l-grid--visible-s {
+	display: flex;
+}
+
+/**
+ * resets width
+ * @class .l-grid--w-reset-{SIZE}
+ * @example .l-grid--w-reset-s
+ */
+.l-grid--w-reset-s {
+	width: auto;
+	flex-basis: auto;
+	max-width: none;
+	flex-grow: initial;
+}
+
+/**
+ * sets an item to automatically take all the available space
+ * @class .l-grid--w-auto-{SIZE}
+ * @example .l-grid--w-auto-s
+ */
+.l-grid--w-auto-s {
+	flex-grow: 1;
+	flex-basis: 0;
+	max-width: 100%;
+}
+
+.l-grid--nowrap-s {
+	flex-wrap: nowrap;
+}
+
+/**
+ * all the percentage based sizes
+ * @class .l-grid--w-{PERCENTAGE}pc-{SIZE}
+ * @example .l-grid--w-10pc-s
+ */
+.l-grid--w-10pc-s {
+	flex-basis: 10%;
+	max-width: 10%;
+	width: 10%;
+}
+
+.l-grid--w-20pc-s {
+	flex-basis: 20%;
+	max-width: 20%;
+	width: 20%;
+}
+
+.l-grid--w-25pc-s {
+	flex-basis: 25%;
+	max-width: 25%;
+	width: 25%;
+}
+
+.l-grid--w-33pc-s {
+	flex-basis: 33.3333%;
+	max-width: 33.3333%;
+	width: 33.3333%;
+}
+
+.l-grid--w-40pc-s {
+	flex-basis: 40%;
+	max-width: 40%;
+	width: 40%;
+}
+
+.l-grid--w-50pc-s {
+	flex-basis: 50%;
+	max-width: 50%;
+	width: 50%;
+}
+
+.l-grid--w-60pc-s {
+	flex-basis: 60%;
+	max-width: 60%;
+	width: 60%;
+}
+
+.l-grid--w-66pc-s {
+	flex-basis: 66.6666%;
+	max-width: 66.6666%;
+	width: 66.6666%;
+}
+
+.l-grid--w-75pc-s {
+	flex-basis: 75%;
+	max-width: 75%;
+	width: 75%;
+}
+
+.l-grid--w-80pc-s {
+	flex-basis: 80%;
+	max-width: 80%;
+	width: 80%;
+}
+
+.l-grid--w-90pc-s {
+	flex-basis: 90%;
+	max-width: 90%;
+	width: 90%;
+}
+
+.l-grid--w-100pc-s {
+	flex-basis: 100%;
+	max-width: 100%;
+	width: 100%;
+}
