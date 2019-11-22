@@ -1,24 +1,24 @@
 @font-face {
   font-family: Audi Normal;
-  src: url('../fonts/AudiTypeScreen-Normal.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/kashsapient/microfrontend-resources/fonts/AudiTypeScreen-Normal.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Audi Light;
-  src: url('../fonts/AudiTypeScreen-Light.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/kashsapient/microfrontend-resources/fonts/AudiTypeScreen-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Audi Bold;
-  src: url('../fonts/AudiTypeScreen-Bold.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/kashsapient/microfrontend-resources/fonts/AudiTypeScreen-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Audi Extended Normal;
-  src: url('../fonts/AudiType-ExtendedNormal.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/kashsapient/microfrontend-resources/fonts/AudiType-ExtendedNormal.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Audi Extended Bold;
-  src: url('../fonts/AudiType-ExtendedBold.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/kashsapient/microfrontend-resources/fonts/AudiType-ExtendedBold.ttf') format('truetype');
 }
